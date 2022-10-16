@@ -26,6 +26,8 @@ app.Run();
 
 builder.Services.AddTransient<IPersonaRepository, PersonaRepository>();
 builder.Services.AddTransient<IProfesionRepository, ProfesionRepository>();
+builder.Services.AddTransient<IEstudioRepository, EstudioRepository>();
+builder.Services.AddTransient<ITelefonoRepository, TelefonoRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
