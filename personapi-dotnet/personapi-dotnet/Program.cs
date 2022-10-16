@@ -25,6 +25,7 @@ app.MapControllerRoute(
 app.Run();
 
 builder.Services.AddTransient<IPersonaRepository, PersonaRepository>();
+builder.Services.AddTransient<IProfesionRepository, ProfesionRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

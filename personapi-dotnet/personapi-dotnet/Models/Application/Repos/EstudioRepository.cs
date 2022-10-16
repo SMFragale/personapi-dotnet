@@ -1,4 +1,5 @@
-﻿using personapi_dotnet.Models.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using personapi_dotnet.Models.Entities;
 
 namespace personapi_dotnet.Models.Application.Repos
 {
@@ -8,24 +9,32 @@ namespace personapi_dotnet.Models.Application.Repos
         {
         }
 
-        public Task<Estudio> CreateEstudio(Estudio estudio)
+        public async Task<Estudio> CreateEstudio(Estudio estudio)
         {
-            throw new NotImplementedException();
+            await _context.Set<Estudio>().AddAsync(estudio);
+            await _context.SaveChangesAsync();
+            return estudio;
         }
 
-        public Task<bool> DeleteEstudio(Estudio estudio)
+        public async Task<bool> DeleteEstudio(Estudio estudio)
         {
-            throw new NotImplementedException();
+            if (estudio is null)
+                return false;
+            _context.Set<Estudio>().Remove(estudio);
+            await _context.SaveChangesAsync();
+            return true;
         }
 
         public Estudio GetEstudio(int ccPersona, int idProf)
         {
-            throw new NotImplementedException();
+            return _context.Estudios.Find(ccPersona, idProf);
         }
 
-        public Task<bool> UpdateEstudio(Estudio estudio)
+        public async Task<bool> UpdateEstudio(Estudio estudio)
         {
-            throw new NotImplementedException();
+            _context.Entry(estudio).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return true;
         }
     }
 }
