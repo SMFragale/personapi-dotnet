@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\Arquitectura de software\\Lab 1\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj": {}
+    "C:\\Users\\smola\\OneDrive\\Documents\\dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\Arquitectura de software\\Lab 1\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj": {
+    "C:\\Users\\smola\\OneDrive\\Documents\\dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Arquitectura de software\\Lab 1\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj",
+        "projectUniqueName": "C:\\Users\\smola\\OneDrive\\Documents\\dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj",
         "projectName": "personapi-dotnet",
-        "projectPath": "C:\\Users\\PC\\Documents\\Arquitectura de software\\Lab 1\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Arquitectura de software\\Lab 1\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\obj\\",
+        "projectPath": "C:\\Users\\smola\\OneDrive\\Documents\\dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet.csproj",
+        "packagesPath": "C:\\Users\\smola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\smola\\OneDrive\\Documents\\dotnet\\personapi-dotnet\\personapi-dotnet\\personapi-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smola\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

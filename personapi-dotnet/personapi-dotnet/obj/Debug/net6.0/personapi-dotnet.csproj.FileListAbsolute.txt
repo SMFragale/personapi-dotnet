@@ -135,3 +135,6 @@ C:\Users\PC\Documents\Arquitectura de software\Lab 1\personapi-dotnet\personapi-
 C:\Users\PC\Documents\Arquitectura de software\Lab 1\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\System.Net.Http.Formatting.dll
 C:\Users\PC\Documents\Arquitectura de software\Lab 1\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\PC\Documents\Arquitectura de software\Lab 1\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\smola\OneDrive\Documents\dotnet\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\smola\OneDrive\Documents\dotnet\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\smola\OneDrive\Documents\dotnet\personapi-dotnet\personapi-dotnet\personapi-dotnet\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

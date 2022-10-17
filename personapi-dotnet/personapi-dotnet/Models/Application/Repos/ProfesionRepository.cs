@@ -3,10 +3,12 @@ using personapi_dotnet.Models.Entities;
 
 namespace personapi_dotnet.Models.Application.Repos
 {
-    public class ProfesionRepository: Repository, IProfesionRepository
+    public class ProfesionRepository: IProfesionRepository
     {
-        public ProfesionRepository(persona_dbContext context) : base(context)
+        protected readonly persona_dbContext _context;
+        public ProfesionRepository(persona_dbContext context)
         {
+            _context = context;
         }
 
         public async Task<Profesion> CreateProfesion(Profesion profesion)

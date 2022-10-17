@@ -3,10 +3,12 @@ using personapi_dotnet.Models.Entities;
 
 namespace personapi_dotnet.Models.Application.Repos
 {
-    public class PersonaRepository : Repository, IPersonaRepository
+    public class PersonaRepository : IPersonaRepository
     {
-        public PersonaRepository(persona_dbContext context) : base(context)
+        protected readonly persona_dbContext _context;
+        public PersonaRepository(persona_dbContext context)
         {
+            _context = context;
         }
 
         public async Task<Persona> CreatePersona(Persona persona)

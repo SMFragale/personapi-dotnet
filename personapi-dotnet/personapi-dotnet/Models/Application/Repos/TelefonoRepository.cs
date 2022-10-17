@@ -3,10 +3,12 @@ using personapi_dotnet.Models.Entities;
 
 namespace personapi_dotnet.Models.Application.Repos
 {
-    public class TelefonoRepository : Repository, ITelefonoRepository
+    public class TelefonoRepository : ITelefonoRepository
     {
-        public TelefonoRepository(persona_dbContext context) : base(context)
+        protected readonly persona_dbContext _context;
+        public TelefonoRepository(persona_dbContext context)
         {
+            _context = context;
         }
 
         public async Task<Telefono> CreateTelefono(Telefono telefono)

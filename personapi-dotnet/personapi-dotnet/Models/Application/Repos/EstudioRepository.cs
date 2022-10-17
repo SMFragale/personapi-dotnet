@@ -3,11 +3,14 @@ using personapi_dotnet.Models.Entities;
 
 namespace personapi_dotnet.Models.Application.Repos
 {
-    public class EstudioRepository : Repository, IEstudioRepository
+    public class EstudioRepository : IEstudioRepository
     {
-        public EstudioRepository(persona_dbContext context) : base(context)
+        protected readonly persona_dbContext _context;
+        public EstudioRepository(persona_dbContext context)
         {
+            _context = context;
         }
+
 
         public async Task<Estudio> CreateEstudio(Estudio estudio)
         {
